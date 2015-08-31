@@ -1,67 +1,22 @@
 <!doctype html>
-<html lang=en>
+
+<html manifest='offline.appcache' lang=en>
   <head>
+    <base href="http://tjphilippe.github.io/" target="_blank">
     <title>Tjphilippe</title>
       <link rel="icon" href="https://tjphilippe.github.io/Images/favicon.ico">
       <link href="//cloud.webtype.com/css/094b1fa9-6433-4dce-966d-931c186185d8.css" rel="stylesheet" type="text/css">
       <link href="CSS/videobackground.css" rel="stylesheet" type="text/css">
-
-  <!--    <style>
-body { margin: 0; background: #000;}
-video { 
-position: fixed;
-top: 50%;
-left: 50%;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -1000;
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
-background: url('Images/Welcome_to_Japan.jpg') no-repeat; background-size: cover;  -webkit-transition: 1s opacity; transition: 1s opacity; }
-div { font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;   
-font-weight: 100; background: rgba(0,0,0,0.3); color: white; padding: 2rem; width: 33%; margin: 2rem; float: right; font-size: 1.2rem; }
-h1 { font-size: 3rem; text-transform: uppercase; margin-top: 0; letter-spacing: .3rem; }
-a { display: inline-block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); 
-padding: .5rem; -webkit-transition: .6s background; transition: .6s background; }
-a:hover { background: rgba(0,0,0,0.9); }
-.stopfade { opacity: .5; }
-#polina button { 
-  display: block;
-  width: 80%;
-  padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  -webkit-transition: .3s background;
-  transition: .3s background;
-}
-#polina button:hover { 
-   background: rgba(0,0,0,0.5);
-}
-
-@media screen and (max-width: 500px) { 
-  div{width:70%;} 
-}
-@media all and (max-device-width: 800px) {
-  body { background: url("Images/Welcome_to_Japan.jpg") #000 no-repeat center center fixed; background-size: cover; }
-  #bgvid, #polina button { display: none; }
-  div{width:70%;} 
-}
-</style> -->
-<meta charset=utf-8>
-</head>
+      <meta charset=utf-8>
+      <meta name="author" content="Mr. Tanaka">
+      
+  </head>
 <body>
 <video  autoplay loop muted poster="Images/Welcome_to_Japan.jpg" id="bgvid">
 <!--<source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
 <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4"> -->
 
-
+ 
 <source src="https://r18---sn-hp57kn7k.c.docs.google.com/videoplayback?requiressl=yes&id=be33e33938e6218e&itag=18&source=webdrive&app=docs&ip=66.231.154.45&ipbits=0&expire=1441005812&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=477C05B7CEF003E31F69175074C92DED3B80DE6E.85C1F4AEC42B68D864A058A3987DAF127FA17377&key=ck2&mm=30&mn=sn-hp57kn7k&ms=nxu&mt=1441002176&mv=m&nh=IgpwcjA0Lm1pYTA0KgkxMjcuMC4wLjE&pl=19&cpn=PPbNfS_FHWbPgimA&c=WEB&cver=html5"
  type="video/mp4"> 
 
@@ -76,7 +31,7 @@ a:hover { background: rgba(0,0,0,0.9); }
 <p>Hello World! My name is Terry and I'd like to formally welcome you to my site! Please enjoy yourself and enjoy the content!</p>
 
 <p>Hopefully, by the end of your visit you should know me just a little bit more!</p>
-<p><a  style='width:100%;padding-left:0 !important;padding-right:0 !important;text-align:center' href='http://tjphilippe.github.io/home.html'>Enter</a></p>
+<p><a  style='width:100%;padding-left:0 !important;padding-right:0 !important;text-align:center' href='home.html'>Enter</a></p>
 </div>
 <script>
 var video = document.getElementById("bgvid"),

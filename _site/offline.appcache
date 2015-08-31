@@ -1,0 +1,9 @@
+CACHE MANIFEST
+https://tjphilippe.github.io/index.html
+
+NETWORK:
+*
+
+FALLBACK:
+https://tjphilippe.github.io/About/ https://tjphilippe.github.io/index.html
+https://tjphilippe.github.io/UF/ https://tjphilippe.github.io/index.html
